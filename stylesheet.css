@@ -1,0 +1,88 @@
+/* CSSのリセット（デフォルトキャンセル）*/
+html,body,
+u1,ol,li,
+h1,h2,h3,h4,h5,h6,p,div {
+    margin: 0;
+    padding: 0;
+}
+/* 項目の黒点 */
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ここから */
+* {
+    box-sizing: border-box;
+}
+header {
+
+    background-color: rgb(139, 100, 175,0.8 );
+    margin: 0px;
+}
+.title h1 {
+    text-align: center;
+    line-height: 80px;
+    color:rgb(44, 236, 236);
+    
+}
+.title span {
+    color: brown;
+    font-size: 50px;
+}
+.top-wrapper {
+    background-color: bisque;
+    height: 150px;
+    
+}
+.title-logo {
+    font-size: 50px;
+    text-align: center;
+}
+.main-contents {
+    height: 680px;
+    background-color: rgb(226, 218, 218);
+    padding-top: 30px;
+    
+}
+.btn {
+    background-color: darkorchid;
+    color: white;
+    padding: 20px 40px;
+    display: inline-block;
+    opacity: 0.8;
+    box-shadow: 4px 5px rgb(27, 27, 27)
+    
+      
+       
+}
+.btn:hover {
+    opacity: 1;
+}
+.btn:active {
+    box-shadow: none;
+    position: relative;
+    top: 5px ;
+    left: 4px;
+
+    
+
+}
+.storys {
+    text-align: center;
+    
+}
+.Tg{
+    padding:20px 0;
+}
+footer {
+    border-top:2px solid black ;
+}
+footer h1 {
+    text-align: center;
+    margin-top:100px ;
+    
+}
